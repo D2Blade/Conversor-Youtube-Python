@@ -20,6 +20,6 @@ def baixar_audio(url, qualidade):
 
 if __name__ == "__main__":
     link = input("Digite o link do vídeo do YouTube: ")
-    qualidade = input("Digite a qualidade desejada (ex: 128k, 192k, 256k): ")
+    qualidade = input("Digite a qualidade desejada (ex: 128, 192, 256): ")
     baixar_audio(link, qualidade)
 
